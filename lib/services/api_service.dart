@@ -7,15 +7,8 @@ class ApiService {
 
   static Future<List<Product>> fetchProducts() async {
     try {
-      String url;
 
-      if (kIsWeb) {
-        url = 'https://corsproxy.io/?$_apiUrl';
-      } else {
-        url = _apiUrl;
-      }
-
-      final response = await http.get(Uri.parse(url));
+      final response = await http.get(Uri.parse(_apiUrl));
 
       if (response.statusCode == 200) {
         final data = json.decode(response.body);
