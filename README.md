@@ -4,8 +4,12 @@ A simple multi-platform **store/catalog** Flutter app that fetches products from
 
 ## What’s included
 
-- **Product list**: grid of products with image, price, and rating
-- **Product details**: image header + category, price, rating, description
+- **Product list**: grid of products with image, price, and rating as shown in the image below
+  <img width="385" height="555" alt="image" src="https://github.com/user-attachments/assets/03be1d21-d933-4922-8baf-70ded40ffcdb" />
+
+- **Product details**: when you click on the product item it will takes you to the product details screen where it shows details such as image header + category, price, rating, description as shown in the image below
+  <img width="393" height="728" alt="image" src="https://github.com/user-attachments/assets/f26e84bd-4200-4ba3-96b2-cd45fa9462a4" />
+
 - **Networking**: `http` client fetching from `https://dummyjson.com/products`
 - **Web support**: uses a CORS proxy when running on Flutter Web
 
