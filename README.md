@@ -28,7 +28,7 @@ A simple multi-platform **store/catalog** Flutter app that fetches products from
 ## Clone & run
 
 ```bash
-git clone <YOUR_REPO_URL>
+git clone https://github.com/Indalu616/product-store-flutter.git
 cd store_app
 flutter pub get
 flutter run
